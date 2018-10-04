@@ -1,0 +1,120 @@
+diff all
+
+# version
+# Betaflight / FF_FORTINIF4 (FORT) 3.5.1 Sep  8 2018 / 05:12:32 (d9fb5ca13) MSP API: 1.40
+
+board_name FF_FORTINIF4
+manufacturer_id 
+mcu_id 003100413037470a34373434
+signature 
+
+# reset configuration to default settings
+defaults nosave
+
+# name
+name tx1
+
+# resources
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+feature TELEMETRY
+
+# beeper
+
+# beacon
+
+# map
+map TAER1234
+
+# serial
+serial 3 2048 115200 57600 0 115200
+serial 5 32 115200 57600 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1900 2100 0 0
+aux 1 1 2 1300 1700 0 0
+aux 2 2 2 1700 2100 0 0
+aux 3 13 1 1400 1600 0 0
+
+# adjrange
+
+# rxrange
+
+# vtx
+
+# rxfail
+
+# master
+set gyro_sync_denom = 2
+set gyro_use_32khz = ON
+set acc_calibration = 26,11,2
+set min_check = 1000
+set motor_pwm_protocol = DSHOT600
+set bat_capacity = 1550
+set vbat_max_cell_voltage = 42
+set vbat_min_cell_voltage = 34
+set vbat_warning_cell_voltage = 36
+set vbat_scale = 109
+set small_angle = 180
+set pid_process_denom = 2
+
+# profile
+profile 0
+
+set dterm_notch_cutoff = 0
+set iterm_relax = RP
+
+# profile
+profile 1
+
+
+# profile
+profile 2
+
+
+# restore original profile selection
+profile 0
+
+# rateprofile
+rateprofile 0
+
+
+# rateprofile
+rateprofile 1
+
+
+# rateprofile
+rateprofile 2
+
+
+# rateprofile
+rateprofile 3
+
+
+# rateprofile
+rateprofile 4
+
+
+# rateprofile
+rateprofile 5
+
+
+# restore original rateprofile selection
+rateprofile 3
+
+# save configuration
+save
+# 
