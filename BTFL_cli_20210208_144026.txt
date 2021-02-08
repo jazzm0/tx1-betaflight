@@ -1,0 +1,74 @@
+diff
+
+# version
+# Betaflight / FF_FORTINIF4 (FORT) 4.0.4 Jun 30 2019 / 14:14:06 (f3a95efa3) MSP API: 1.41
+
+# start the command batch
+batch start
+
+board_name FF_FORTINIF4
+manufacturer_id 
+
+# name
+
+# resources
+
+# timer
+
+# dma
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+
+# beeper
+
+# beacon
+
+# map
+map TAER1234
+
+# serial
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1900 2100 0 0
+aux 1 1 1 900 1075 0 0
+aux 2 2 1 1400 1600 0 0
+
+# adjrange
+
+# rxrange
+
+# vtx
+
+# rxfail
+
+# display_name
+
+# master
+set acc_calibration = 35,4,5
+set motor_pwm_protocol = DSHOT600
+
+# profile
+profile 0
+
+
+# rateprofile
+rateprofile 3
+
+
+# end the command batch
+batch end
+
+# 
